@@ -47,6 +47,16 @@ int main() {
         }
     }
     // Nível Aventureiro - Movimentação do Cavalo
+    int cavalo_horizontal = 1;
+    int cavalo_vertical;
+
+    for(cavalo_vertical=1; cavalo_vertical <= 2; cavalo_vertical++){
+        printf("Cavalo: Baixo\n");
+        while(cavalo_horizontal <= 1 && cavalo_vertical == 2){
+            printf("Cavalo: Esquerda\n");
+            cavalo_horizontal++;
+        }
+    }
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
 
